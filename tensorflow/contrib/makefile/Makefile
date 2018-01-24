@@ -330,7 +330,6 @@ ifeq ($(TARGET),IOS)
 		-Wno-c++11-narrowing \
 		-mno-thumb \
 		-DTF_LEAN_BINARY \
-		-D__ANDROID_TYPES_SLIM__ \
 		-fno-exceptions \
 		-isysroot \
 		${IPHONEOS_SYSROOT}
@@ -354,7 +353,6 @@ ifeq ($(TARGET),IOS)
 		-Wno-c++11-narrowing \
 		-mno-thumb \
 		-DTF_LEAN_BINARY \
-		-D__ANDROID_TYPES_SLIM__ \
 		-fno-exceptions \
 		-isysroot \
 		${IPHONEOS_SYSROOT}
@@ -377,7 +375,6 @@ ifeq ($(TARGET),IOS)
 		-DUSE_GEMM_FOR_CONV \
 		-Wno-c++11-narrowing \
 		-DTF_LEAN_BINARY \
-		-D__ANDROID_TYPES_SLIM__ \
 		-fno-exceptions \
 		-isysroot \
 		${IPHONEOS_SYSROOT}
@@ -401,7 +398,6 @@ ifeq ($(TARGET),IOS)
 		-DUSE_GEMM_FOR_CONV \
 		-Wno-c++11-narrowing \
 		-DTF_LEAN_BINARY \
-		-D__ANDROID_TYPES_SLIM__ \
 		-fno-exceptions \
 		-isysroot \
 		${IPHONESIMULATOR_SYSROOT}
@@ -424,7 +420,6 @@ ifeq ($(TARGET),IOS)
 		-DUSE_GEMM_FOR_CONV \
 		-Wno-c++11-narrowing \
 		-DTF_LEAN_BINARY \
-		-D__ANDROID_TYPES_SLIM__ \
 		-fno-exceptions \
 		-isysroot \
 		${IPHONESIMULATOR_SYSROOT}

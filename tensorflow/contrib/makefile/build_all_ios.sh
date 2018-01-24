@@ -45,7 +45,7 @@ fi
 tensorflow/contrib/makefile/download_dependencies.sh
 
 # Compile protobuf for the target iOS device architectures.
-tensorflow/contrib/makefile/compile_ios_protobuf.sh
+tensorflow/contrib/makefile/compile_ios_protobuf.sh "-O3  -DANDROID_TYPES=ANDROID_TYPES_FULL -DSELECTIVE_REGISTRATION -DSUPPORT_SELECTIVE_REGISTRATION"
 
 # Compile nsync for the target iOS device architectures.
 # Don't use  export var=`something` syntax; it swallows the exit status.

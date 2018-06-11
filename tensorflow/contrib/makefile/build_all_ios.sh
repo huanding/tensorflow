@@ -65,7 +65,7 @@ if [[ "${ONLY_MAKE_TENSORFLOW}" != "true" ]]; then
     tensorflow/contrib/makefile/download_dependencies.sh
 
     # Compile protobuf for the target iOS device architectures.
-    tensorflow/contrib/makefile/compile_ios_protobuf.sh
+    tensorflow/contrib/makefile/compile_ios_protobuf.sh -a "${BUILD_ARCH}"
 fi
 
 # Compile nsync for the target iOS device architectures.

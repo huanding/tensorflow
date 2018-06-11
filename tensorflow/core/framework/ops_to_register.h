@@ -41,7 +41,6 @@
 "DepthwiseConv2dNativeOp<CPUDevice, float>",
 "EnterOp",
 "BinaryOp<CPUDevice, functor::equal_to<int32>>",
-"BinaryOp<CPUDevice, functor::equal_to<::tensorflow::int32>>",
 "ExitOp",
 "UnaryOp<CPUDevice, functor::exp<float>>",
 "ExpandDimsOp<int32>",
